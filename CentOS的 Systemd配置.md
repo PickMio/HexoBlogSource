@@ -1,0 +1,1 @@
+`CentOS 7` 以后, 系统可以使用 systemd 来控制系统的启动和服务器的管理, 它取代了  `service` 和 `chkconfig`
