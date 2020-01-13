@@ -17,3 +17,11 @@
 - 使用 curl 直接发送包体大于 1024 的数据而不发送 `Expect: 100-continue`
 
 		curl -H Expect: -d "postdata string length mast more than 1024 bytes"
+		
+- 修改启动选项, 默认进入字符界面, 查看  `/etc/inittab`  说明
+
+	systemctl set-default multi-user.target
+
+- 获取 CentOS 系统版本 
+
+		rpm -q centos-release|cut -d- -f3
